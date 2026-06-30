@@ -1,7 +1,5 @@
 # AI Research Paper Analysis-Langchain
 
-### 🚨 HEY! YES, YOU! 🚨
-**👇 Don't let this static image fool you! Give it a good ol' *CLICK* or *TAP* to watch the demo video! It's a video trapped in a picture's body! Set it free! 🕊️🍿 👇**
 
 [![Demo Video](https://drive.google.com/thumbnail?id=1nS46CFyGL7uqQarQUCsVhOmJI4sKCdRh&sz=w1200-h630)](https://drive.google.com/file/d/1nS46CFyGL7uqQarQUCsVhOmJI4sKCdRh/view?usp=sharing)
 

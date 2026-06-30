@@ -11,3 +11,4 @@ embedding_model=os.getenv("EMBEDDING_MODEL")
 llm_model=os.getenv("LLM_MODEL")
 
 llm=ChatGroq(groq_api_key=groq_api_key,model_name=llm_model)
+print(llm.invoke("who is Hardik Pandya?"))

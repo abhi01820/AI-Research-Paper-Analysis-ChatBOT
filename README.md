@@ -1,7 +1,9 @@
 # AI Research Paper Analysis-Langchain
 
-[![Demo Video](static/Banner.jpg)](https://drive.google.com/file/d/1nS46CFyGL7uqQarQUCsVhOmJI4sKCdRh/view?usp=sharing)
-*(Click the banner above to watch the demo video)*
+### 🚨 HEY! YES, YOU! 🚨
+**👇 Don't let this static image fool you! Give it a good ol' *CLICK* or *TAP* to watch the demo video! It's a video trapped in a picture's body! Set it free! 🕊️🍿 👇**
+
+[![Demo Video](https://drive.google.com/thumbnail?id=1nS46CFyGL7uqQarQUCsVhOmJI4sKCdRh&sz=w1200-h630)](https://drive.google.com/file/d/1nS46CFyGL7uqQarQUCsVhOmJI4sKCdRh/view?usp=sharing)
 
 ## Overview
 This project is an AI-powered Research Paper Analysis application built using Langchain. It allows users to upload research papers (PDFs), automatically extracts and refines sections from the document, provides detailed summaries for specific topics/sections, and includes an interactive chat feature powered by RAG (Retrieval-Augmented Generation) to ask questions about the paper's contents.

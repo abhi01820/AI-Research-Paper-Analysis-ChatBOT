@@ -2,6 +2,7 @@ import os,json
 from langchain_groq import ChatGroq
 from langchain_huggingface import HuggingFaceEmbeddings
 from src.load_and_extract_text import extract_text_from_pdf,extract_pdf_sections
+from src.detect_and_split_sections import refine_sections
 
 from dotenv import load_dotenv
 
@@ -17,6 +18,7 @@ llm=ChatGroq(groq_api_key=groq_api_key,model_name=llm_model)
 if __name__=="__main__":
     extracted_text=extract_text_from_pdf("research-paper.pdf")
     extracted_sections=extract_pdf_sections(full_text=extracted_text)
-    with open("extracted_sections.json","w") as f:
-        json.dump(extracted_sections,f,indent=4)
+    refined_sections=refine_sections(extracted_sections,llm)
+    with open("refined_sections.json","w") as f:
+        json.dump(refined_sections,f,indent=4)
         
